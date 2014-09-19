@@ -20,5 +20,6 @@ script:
   - which python && coverage run --branch test.py
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
 
+archive: true
 #commit_container: ragster/rags
 
